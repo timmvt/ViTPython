@@ -1,0 +1,1 @@
+#The goal of today is to be able to use web scraping to find a specific element on a web page, convert the data, and enter it into an excel spreadsheet.  This is not an easy assignment, and will require you to refer to the notes and documentation you have been working with for the past 3 weeks.
