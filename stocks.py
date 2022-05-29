@@ -8,8 +8,8 @@ import requests   # imports requests
 url = "https://alpha-vantage.p.rapidapi.com/query"
 
 # Open Workbook
-stockwb = load_workbook("C:\Users\timmv\Downloads\ViT Python\PythonPractice\stocks.xlsx")
-stockSheetNames = stockwb.get_sheet_names()
+wb = load_workbook("stocks.xlsx")
+stockSheetNames = wb.get_sheet_names()
 
 querystring = {"interval":"5min","function":"TIME_SERIES_INTRADAY","symbol":"MSFT","datatype":"json","output_size":"compact"}
 
